@@ -344,7 +344,7 @@ td {
     
     .mainportfolio {
       height: auto;
-      width: 75%;
+      width: 95%;
       background-color: #ffffff;
       border-width: 1px;
       border-style: solid;
@@ -369,7 +369,7 @@ td {
     
     .maincontact {
       height: auto;
-      width: 75%;
+      width: 95%;
       background-color: #ffffff;
       border-width: 1px;
       border-style: solid;
@@ -454,7 +454,7 @@ td {
     }
     
     .container img {
-      width: 75%;
+      width: 85%;
       height: auto;
     }
     
@@ -462,7 +462,7 @@ td {
       position: absolute;
       bottom: 10px;
       left: 0%;
-      width: 75%;
+      width: 85%;
       background-color: #4aaaa5;
       color: white;
       font-size: 16px;
@@ -690,7 +690,7 @@ td {
     }
     
     .container img {
-      width: 75%;
+      width: 85%;
       height: auto;
     }
     
@@ -698,7 +698,7 @@ td {
       position: absolute;
       bottom: 10px;
       left: 0%;
-      width: 75%;
+      width: 85%;
       background-color: #4aaaa5;
       color: white;
       font-size: 18px;
@@ -949,5 +949,29 @@ td {
     
     .container .btn:hover {
       background-color: #3d8a86;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    nav {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 20px;
+      color: #777777;
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+    nav {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 20px;
+      color: #777777;
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding-bottom: 20px;
     }
   }
